@@ -1,0 +1,66 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+ #main-background {
+    height:75%;
+    margin-top: 7%;
+    background-color: #1C1C1C;
+    width:100%;
+ }
+ #services {
+    width: 100%;
+ }
+ #company-title {
+   color:#B40404;
+ }
+ #footer {
+   height:15%;
+   margin-top: 600px;
+   margin: 50px 0;
+ }
+ #event-image {
+   height: 500px;
+   width: 500px;
+ }
+ #site-logo{
+   width:90px;
+   height:90px;
+ }
+body {
+    background-color: black;
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    width:100%;
+}
+.navbar-header{
+  height:25px;
+}
+.nav-links {
+  margin-top:2%;
+}
+.nav-text {
+  font-size: 300%;
+}
+.partition {
+  margin-top: 22%;
+  background-color: black;
+  height:50px;
+}
+.partition-top {
+  background-color: black;
+  height:50px;
+}
+.lead {
+  color: #AEB404;
+}
+#footer-div {
+  margin-top: 2%;
+  background-color: #1C1C1C;
+}
+.featurette-heading {
+    font-size: 50px;
+    color: #01DFD7;
+}
+
+}
