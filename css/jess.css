@@ -1,0 +1,174 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+ #main-background {
+    height:75%;
+    margin-top: 7%;
+    width:100%;
+ }
+ #Header {
+   height:300px;
+   width:100%;
+ }
+ #Main_Content {
+   height: 500px;
+   width:100%;
+ }
+ #Event_Content {
+   margin-top:11%;
+   width:40%;
+   margin-left: 10%;
+   height:400px;
+   float: left;
+   background-color: red;
+ }
+ #Media_Content {
+   margin-top:11%;
+   width:35%;
+   height:400px;
+   float: left;
+ }
+ #twitter_content{
+   padding-top: 2%;
+   padding-bottom: 1%;
+   padding-left: 2%;
+   padding-right: 2%;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   border-top-right-radius: 8px;
+   /*margin-left: 02.63157894736842%;/*50px / 1900px*/
+   background-color:rgba(192,192,192,0.6);
+ }
+ #facebook_content {
+   padding-top: 2%;
+   padding-bottom: 1%;
+   margin-top: 4%;
+   padding-left: 2%;
+   padding-right: 2%;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   border-top-right-radius: 8px;
+   /*margin-left: 02.63157894736842%;/*50px / 1900px*/
+   background-color:rgba(192,192,192,0.6);
+ }
+ #instagram_content {
+   padding-top: 2%;
+   padding-bottom: 1%;
+   margin-top: 4%;
+   padding-left: 2%;
+   padding-right: 2%;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   border-top-right-radius: 8px;
+   /*margin-left: 02.63157894736842%;/*50px / 1900px*/
+   background-color:rgba(192,192,192,0.6);
+ }
+ #youtube_content {
+   padding-top: 2%;
+   padding-bottom: 1%;
+   margin-top: 4%;
+   padding-left: 2%;
+   padding-right: 2%;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   border-top-right-radius: 8px;
+   /*margin-left: 02.63157894736842%;/*50px / 1900px*/
+   background-color:rgba(192,192,192,0.6);
+ }
+ #Media_Image_Content{
+   margin-top:11%;
+   width:6%;
+   height:400px;
+   float: left;
+   background-color: green;
+ }
+ #twitter_content_image {
+
+ }
+ #facebook_content_image {
+
+ }
+ #instagram_content_image {
+
+ }
+ #youtube_content_image {
+
+ }
+
+
+ #btn_home {
+   float:left;
+   margin-left: 28%;
+   margin-top: 250px;
+ }
+ #btn_events {
+   float:left;
+   bottom: 0;
+   margin-left: 6%;
+   margin-top: 250px;
+ }
+ #btn_services {
+   float:left;
+   bottom: 0;
+   margin-left: 6%;
+   margin-top: 250px;
+ }
+ #btn_contact {
+   float:left;
+   bottom: 0;
+   margin-left: 6%;
+   margin-top: 250px;
+ }
+ #services {
+    width: 100%;
+ }
+ #footer {
+   height:15%;
+   margin-top: 600px;
+   margin: 50px 0;
+ }
+ #event-image {
+   height: 500px;
+   width: 500px;
+ }
+ #site-logo{
+   width:90px;
+   height:90px;
+ }
+body {
+
+    width:100%;
+}
+p {
+  text-shadow: 0px 0 black, 0 0px black, 0px 0 black, 0 0px black;
+}
+.navbar-header{
+  height:25px;
+}
+.nav-links {
+  margin-top:2%;
+}
+.nav-text {
+  font-size: 300%;
+}
+.partition {
+  margin-top: 22%;
+  height:50px;
+}
+.partition-top {
+  height:50px;
+}
+.lead {
+
+}
+.featurette-heading {
+    font-size: 50px;
+}
+
+}

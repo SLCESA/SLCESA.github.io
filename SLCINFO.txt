@@ -1,0 +1,8 @@
+https://github.com/MitchellUngar/SLCESA.git
+https://github.com/SLCESA/SLCESA.github.io.git
+
+username: SLC ESA
+e-mail:   SLCeSportAssociation@gmail.com
+password: SLCESA2016
+
+password: eSports2016

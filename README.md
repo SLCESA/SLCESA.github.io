@@ -1,1 +1,2 @@
-# SLCESA.github.io
+# SLCESA
+St.Lawrence College eSport Association
