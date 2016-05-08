@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Mitchell Ungar">
 
     <title>SLC ESA Events</title>
 
@@ -15,85 +14,89 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/slcesa.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href="css/jess.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://alasql.org/console/alasql.min.js"></script>
 
 </head>
-
-<body>
-    <!-- Page Content -->
-    <div class="container" id="main-background">
-      <!-- Navigation -->
-      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="container">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" id="company-title" href="index.html"></a>
-
-              </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
-                      <li id="li-logo">
-                         <a href="index.html"><img id="site-logo" src="images/blueflaming-controller.jpg"></a>
-                      </li>
-                      <li class="nav-links">
-                          <a href="index.html" class="nav-text">SLC eSports Association</a>
-                      </li>
-                      <li class="nav-links">
-                          <a href="events.html" class="nav-text" id="company-title">Events</a>
-                      </li>
-                      <li class="nav-links">
-                          <a href="#services" class="nav-text">Services</a>
-                      </li>
-                      <li class="nav-links">
-                          <a href="#contact" class="nav-text">Contact</a>
-                      </li>
-                  </ul>
-              </div>
-              <!-- /.navbar-collapse -->
-          </div>
-          <!-- /.container -->
-      </nav>
-      <div class="partition-top">
+<body background="images/Background_And_Title.png">
+  <!--Header-->
+  <div id="Header">
+    <form action="index.html">
+      <input type="image" id="btn_home" src="images/btn_home.png" alt="Submit">
+    </form>
+    <form action="events.html">
+      <input type="image" id="btn_events" src="images/btn_events_selected.png" alt="Submit">
+    </form>
+    <form action="services.html">
+      <input type="image" id="btn_services" src="images/btn_services.png" alt="Submit">
+    </form>
+    <form action="contact.html">
+      <input type="image" id="btn_contact" src="images/btn_contact.png" alt="Submit">
+    </form>
+  </div>
+  <!--Main Content-->
+  <div id="Main_Content">
+    <!--Event Content-->
+    <div id="Event_Content">
+      <div id="event_1">
+        <div id=event_1_image>
+          <input type="image" id="event_1_display" src="images/OGC_AD.png" alt="Submit">
+        </div>
+        <div id="event_1_info">
+          <input type="image" id="event_1_title" src="images/ONTARIO_GAMING_CONVENTION.png" alt="Submit"><br>
+          <h4 class= "event_info">St.Lawrence College</h4>
+          <h4 class= "event_info">100 Portsmouth Ave - Kingston, ON</h4>
+          <h4 class= "event_info">July 22 - 24, 2016</h4>
+        </div>
       </div>
-        <!-- First Featurette -->
-        <div class="featurette" id="services">
-          </br>
-            <img class="featurette-image img-circle img-responsive pull-left" id="event-image" src="images/color-scheme.jpg">
-          </br></br>
-                <h2 class="featurette-heading">Smash Brothers Tournament Event
-                <span class="text-muted">Example</span>
-            </h2>
-            <p class="lead">April 29th 2016</p>
-            <p class="lead">Feel like you are good enough to beat others? Tired of beating CPU's at level 9? Come to St.Lawrence College and show what you are made of. Become of Victor, or leave in defeat.</p>
+      <div id="event_2">
+        <div id=event_2_image>
+          <input type="image" id="event_2_display" src="images/LOL_AD.png" alt="Submit">
         </div>
-        <div class="partition">
+        <div id="event_2_info">
+          <input type="image" id="event_2_title" src="images/LEAGUE_OF_LEGENDS_TOURNAMENT.png" alt="Submit">
+          <h4 class= "event_info">St.Lawrence College - SA</h4>
+          <h4 class= "event_info">100 Portsmouth Ave - Kingston, ON</h4>
+          <h4 class= "event_info">May 15, 2016</h4>
         </div>
-        <!-- Footer -->
-        <div id = "footer-div">
-          <footer>
-              <div class="row" >
-                  <div class="col-lg-12">
-                      <p>Copyright &copy; SLC ECA V1 2016</p>
-                      <p>Programmer: Mitchell U</p>
-                  </div>
-              </div>
-          </footer>
-        </div>
+      </div>
     </div>
+    <!--Media Content-->
+    <div id="Media_Content">
+      <div id="twitter_content"><p>Blah blah blah, random twitter bollocks, very interesting things, much type, very wow!</p></div>
+      <div id="facebook_content"><p>Ermergherd ferceberk ner werrr... look at what I ate for dinner, isn’t this incredible? My food looks delicious, you wish you had this! Ha!</p></div>
+      <div id="instagram_content"><p>I’ll be totally honest, I really don’t know how instagram works... is it photo-centric? Does it use hashtags like twitter? I have no clue.</p></div>
+      <div id="youtube_content"><p>OMG check out this awesome new video! CS:GO player loses his cool, shouts at a dog, shakes fist at the sky, frightens park pigeons</p></div>
+    </div>
+    <!--Media_Image_Content-->
+    <div id="Media_Image_Content">
+      <div id="twitter_content_image">
+          <input type="image" id="twitter_image" src="images/twitter_icon.png" alt="Submit">
+      </div>
+      <div id="facebook_content_image">
+          <input type="image" id="facebook_image" src="images/facebook_icon.png" alt="Submit">
+      </div>
+      <div id="instagram_content_image">
+          <input type="image" id="instagram_image" src="images/instagram_icon.png" alt="Submit">
+      </div>
+      <div id="youtube_content_image">
+          <input type="image" id="youtube_image" src="images/youtube_icon.png" alt="Submit">
+      </div>
+
+    </div>
+  </div>
+  <!-- Footer -->
+  <div id = "footer-div">
+    <footer>
+        <div class="row" >
+            <div class="col-lg-12">
+                <p>Copyright &copy; SLC ECA V2 2016</p>
+                <p>Programmer: Mitchell U</p>
+            </div>
+        </div>
+    </footer>
+  </div>
 
     <!-- /.container -->
 
