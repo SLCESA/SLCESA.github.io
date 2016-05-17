@@ -1,0 +1,149 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+#wrapper {
+  width:1920px;
+  height:980px;
+}
+ #main-background {
+    height:75%;
+    margin-top: 7%;
+    width:100%;
+ }
+#OGC_Poster {
+  width:425px;
+  height:525px;
+}
+#Event_Poster{
+  padding-left: 0.75%;
+  padding-top: 0.66%;
+  float:left;
+  margin-left: 10%;
+  background-color: black;
+  width:450px;
+  height:550px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#info_div{
+  float:right;
+  height:675px;
+  width:55%;
+}
+#Event_Info_Content{
+  padding-left: 2%;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding border-bottom: 2%;
+  background-color: black;
+  width:950px;
+  height:450px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#OGC_LOGO{
+  margin-top: 1%;
+  margin-left: 2%;
+  height:60px;
+  width:90px;
+}
+#Event_Ticket_Content{
+  margin-top: 20px;
+  background-color: black;
+  width:950px;
+  height:85px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#Ticket_Text{
+  margin-top: 3%;
+  margin-right: 29%;
+  color:white;
+  float:right;
+}
+ #Header {
+   margin-top: 2.5%;
+   width:100%;
+ }
+ #inner_header{
+   width: 100%;
+   height:150px;
+   background-image: url(../images/EVENT_HEADER.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+ }
+#topheader {
+	width:auto;
+	height: 48px;
+	background-color: #226AFF;
+	text-align: center;
+	color: red;
+	font-size: 44px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+ #Main_Content {
+   margin-top: 4%;
+   height: 600px;
+   width:100%;
+ }
+
+ #btn_home {
+   float:left;
+   margin-left: 200px;
+   margin-top: 50px;
+ }
+ #btn_events {
+   float:left;
+   bottom: 0;
+   margin-left: 200px;
+   margin-top: 50px;
+ }
+ #btn_services {
+   float:left;
+   bottom: 0;
+   margin-left: 600px;
+   margin-top: 50px;
+ }
+ #btn_contact {
+   float:left;
+   bottom: 0;
+   margin-left: 200px;
+   margin-top: 50px;
+ }
+ #services {
+    width: 100%;
+ }
+ #footer_div {
+   background-color: black;
+   height:100px;
+   left:0;
+   bottom:0;
+ }
+ #footer_text {
+   float:left;
+   margin-left: 30%;
+ }
+ body {
+    overflow-x: hidden;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  p {
+    color: white;
+    font-size: 18px;
+    text-shadow: 0px 0 black, 0 0px black, 0px 0 black, 0 0px black;
+  }
+  a {
+    color: white;
+}
+}
