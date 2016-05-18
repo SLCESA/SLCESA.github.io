@@ -4,100 +4,64 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"
     <meta name="description" content="">
     <meta name="author" content="Mitchell Ungar">
 
-    <title>SLC ESA Contact</title>
+    <title>SLC ESA Contacts</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/jess.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
     <script src="http://alasql.org/console/alasql.min.js"></script>
     <link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
-<body background="images/Background_And_Title.png">
+<body background="images/Contact_Page_Background.png">
+  <div id ="wrapper">
   <!--Header-->
-  <div id="Header">
-    <form action="index.html">
-      <input type="image" id="btn_home" src="images/btn_home.png" alt="Submit">
-    </form>
-    <form action="events.html">
-      <input type="image" id="btn_events" src="images/btn_events.png" alt="Submit">
-    </form>
-    <form action="services.html">
-      <input type="image" id="btn_services" src="images/btn_services.png" alt="Submit">
-    </form>
-    <form action="contact.html">
-      <input type="image" id="btn_contact" src="images/btn_contact_selected.png" alt="Submit">
-    </form>
+  <div id="Header" background="images/Contact_Page_Header.png">
+    <div id="inner_header">
+      <form action="index.html">
+        <input type="image" id="btn_home" src="images/btn_home.png" alt="Submit">
+      </form>
+      <form action="events.html">
+        <input type="image" id="btn_events" src="images/btn_events.png" alt="Submit">
+      </form>
+      <form action="services.html">
+        <input type="image" id="btn_services" src="images/btn_services.png" alt="Submit">
+      </form>
+      <form action="contact.html">
+        <input type="image" id="btn_contact" src="images/btn_contact_selected.png" alt="Submit">
+      </form>
+    </div>
   </div>
   <!--Main Content-->
   <div id="Main_Content">
-    <!--Event Content-->
-    <div id="Event_Content">
-      <div id="event_1">
-        <div id=event_1_image>
-          <input type="image" id="event_1_display" src="images/OGC_AD.png" alt="Submit">
-        </div>
-        <div id="event_1_info">
-          <input type="image" id="event_1_title" src="images/ONTARIO_GAMING_CONVENTION.png" alt="Submit"><br>
-          <h4 class= "event_info">St.Lawrence College</h4>
-          <h4 class= "event_info">100 Portsmouth Ave - Kingston, ON</h4>
-          <h4 class= "event_info">July 22 - 24, 2016</h4>
-        </div>
+    <div id="contact_content">
+      <div id="contact_content_left">
+        <h4>e-mail:</h4><br>
+        <h4>facebook:</h4><br>
+        <h4>twitter:</h4><br>
+        <h4>tickets:</h4>
       </div>
-      <div id="event_2">
-        <div id=event_2_image>
-          <input type="image" id="event_2_display" src="images/LOL_AD.png" alt="Submit">
-        </div>
-        <div id="event_2_info">
-          <input type="image" id="event_2_title" src="images/LEAGUE_OF_LEGENDS_TOURNAMENT.png" alt="Submit">
-          <h4 class= "event_info">St.Lawrence College - SA</h4>
-          <h4 class= "event_info">100 Portsmouth Ave - Kingston, ON</h4>
-          <h4 class= "event_info">May 15, 2016</h4>
-        </div>
+      <div id="contact_content_right">
+        <h4><a href="https://www.gmail.com">OntarioGamingCon2016@gmail.com</a></h4><br>
+        <h4><a href="https://www.facebook.com/OntarioGamingCon/">https://www.facebook.com/OntarioGamingCon/</a></h4><br>
+        <h4><a href="https://twitter.com/OntGamingCon16">@OntGamingCon16</a></h4><br>
+        <h4><a href="https://www.picatic.com/OntarioGamingCon">https://www.picatic.com/OntarioGamingCon</a></h4>
       </div>
-    </div>
-    <!--Media Content-->
-    <div id="Media_Content">
-      <div id="twitter_content"><p>Blah blah blah, random twitter bollocks, very interesting things, much type, very wow!</p></div>
-      <div id="facebook_content"><p>Ermergherd ferceberk ner werrr... look at what I ate for dinner, isn’t this incredible? My food looks delicious, you wish you had this! Ha!</p></div>
-      <div id="instagram_content"><p>I’ll be totally honest, I really don’t know how instagram works... is it photo-centric? Does it use hashtags like twitter? I have no clue.</p></div>
-      <div id="youtube_content"><p>OMG check out this awesome new video! CS:GO player loses his cool, shouts at a dog, shakes fist at the sky, frightens park pigeons</p></div>
-    </div>
-    <!--Media_Image_Content-->
-    <div id="Media_Image_Content">
-      <div id="twitter_content_image">
-          <input type="image" id="twitter_image" src="images/twitter_icon.png" alt="Submit">
-      </div>
-      <div id="facebook_content_image">
-          <input type="image" id="facebook_image" src="images/facebook_icon.png" alt="Submit">
-      </div>
-      <div id="instagram_content_image">
-          <input type="image" id="instagram_image" src="images/instagram_icon.png" alt="Submit">
-      </div>
-      <div id="youtube_content_image">
-          <input type="image" id="youtube_image" src="images/youtube_icon.png" alt="Submit">
-      </div>
+
 
     </div>
   </div>
   <!-- Footer -->
-  <div id = "footer-div">
-    <footer>
-        <div class="row" >
-            <div class="col-lg-12">
-                <p>Copyright &copy; SLC ECA V2 2016</p>
-                <p>Programmer: Mitchell U</p>
-            </div>
-        </div>
-    </footer>
+  <div id = "footer_div">
+    <p id="footer_text">Copyright &copy; SLC ESA V2 2016 | WebMaster: Mitchell U | Graphic Designer: Jessica Marsden</p>
   </div>
-
+</div>
     <!-- /.container -->
 
     <!-- jQuery -->

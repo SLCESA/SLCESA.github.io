@@ -1,0 +1,123 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+#wrapper {
+  width:1920px;
+  height:980px;
+}
+ #main-background {
+    height:75%;
+    margin-top: 7%;
+    width:100%;
+ }
+#OGC_Poster {
+  width:425px;
+  height:525px;
+}
+#contact_content{
+  padding-left: 5%;
+  padding-top: 3%;
+  margin-left: 28%;
+  background-image: url(../images/Contact_Page_Content.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  width:835px;
+  height:370px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#contact_content_left {
+  float:left;
+  height:275px;
+  width:100px;
+}
+#contact_content_right {
+  float:right;
+  height:275px;
+  width:615px;
+}
+
+ #Header {
+   margin-top: 2.5%;
+   width:100%;
+ }
+ #inner_header{
+   width: 100%;
+   height:150px;
+   background-image: url(../images/Contact_Page_Header.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+ }
+#topheader {
+	width:auto;
+	height: 48px;
+	background-color: #226AFF;
+	text-align: center;
+	color: red;
+	font-size: 44px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+ #Main_Content {
+   margin-top: 4%;
+   height: 600px;
+   width:100%;
+ }
+
+ #btn_home {
+   float:left;
+   margin-left: 150px;
+   margin-top: 50px;
+ }
+ #btn_events {
+   float:left;
+   bottom: 0;
+   margin-left: 200px;
+   margin-top: 50px;
+ }
+ #btn_services {
+   float:left;
+   bottom: 0;
+   margin-left: 700px;
+   margin-top: 50px;
+ }
+ #btn_contact {
+   float:left;
+   bottom: 0;
+   margin-left: 200px;
+   margin-top: 50px;
+ }
+
+ #footer_div {
+   background-color: black;
+   height:100px;
+   left:0;
+   bottom:0;
+ }
+ #footer_text {
+   float:left;
+   margin-left: 30%;
+ }
+ body {
+    overflow: hidden;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  p {
+    color: white;
+    font-size: 18px;
+    text-shadow: 0px 0 black, 0 0px black, 0px 0 black, 0 0px black;
+  }
+  a {
+    color: white;
+  }
+  h4 {
+    font-size: 22px;
+    color: white;
+  }
+}
