@@ -12,6 +12,10 @@
    height:300px;
    width:100%;
  }
+ #wrapper {
+   width:1920px;
+   height:980px;
+ }
 #topheader {
 	width:auto;
 	height: 48px;
@@ -28,6 +32,22 @@
    height: 500px;
    width:100%;
  }
+ #Media_Content_Right {
+   padding-top: 0.75%;
+   padding-left: 3%;
+   padding-right: 1%;
+   padding-bottom: 1%;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   border-top-right-radius: 8px;
+   background-color:rgba(0,0,0,0.6);
+   margin-top:11%;
+   width:45%;
+   margin-right: 2%;
+   height:450px;
+   float: right;
+ }
  #Event_Content {
    padding-top: 1%;
    padding-left: 1%;
@@ -40,9 +60,22 @@
    background-color:rgba(0,0,0,0.6);
    margin-top:11%;
    width:45%;
-   margin-left: 3%;
-   height:400px;
+   margin-left: 4%;
+   height:450px;
    float: left;
+ }
+ #photo_border {
+   width:735px;
+   height:425px;
+   padding-top: 1%;
+   padding-left: 1%;
+   padding-right: 1%;
+   padding-bottom: 1%;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   border-top-right-radius: 8px;
+   background-color: black;
  }
  #event_1 {
    height:175px;
@@ -92,7 +125,8 @@
    width:63%;
  }
  #event_2_display {
-   height:125;
+   margin-top: 2.5%;
+   height:135px;
    width:90%;
    margin-left: 5%;
    float:left;
@@ -106,7 +140,7 @@
    border-bottom-left-radius: 8px;
    background-color:rgba(0,0,0,0.4);
    margin-top:11%;
-   margin-left: 4%;
+   margin-left: 5%;
    width:35%;
    height:400px;
    float: left;
@@ -188,7 +222,7 @@
 
  #btn_home {
    float:left;
-   margin-left: 28%;
+   margin-left: 29%;
    margin-top: 250px;
  }
  #btn_events {
@@ -241,6 +275,11 @@ p {
   color: white;
   float:left;
   margin-left: 35%;
+}
+#sponsors_container {
+  float:left;
+  margin-left: 5%;
+  width:100%;
 }
 .navbar-header{
   height:25px;
