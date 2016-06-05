@@ -13,7 +13,7 @@
    width:100%;
  }
  #wrapper {
-   width:1920px;
+   width:100%;
    height:980px;
  }
 #topheader {
@@ -29,8 +29,9 @@
 	font-family: Verdana, Geneva, sans-serif;
 }
  #Main_Content {
-   height: 500px;
+   height: 700px;
    width:100%;
+   border-style: solid;
  }
  #Media_Content_Right {
    padding-top: 0.75%;
@@ -43,6 +44,7 @@
    border-top-right-radius: 8px;
    background-color:rgba(0,0,0,0.6);
    margin-top:11%;
+   /*867.6 pixel*/
    width:45%;
    margin-right: 2%;
    height:450px;
@@ -65,17 +67,20 @@
    float: left;
  }
  #photo_border {
-   width:735px;
+   /*735*/
+   width:94.71%;
    height:425px;
-   padding-top: 1%;
-   padding-left: 1%;
-   padding-right: 1%;
-   padding-bottom: 1%;
    border-top-left-radius: 8px;
    border-bottom-left-radius: 8px;
    border-bottom-right-radius: 8px;
    border-top-right-radius: 8px;
    background-color: black;
+ }
+ #OGC_Home_Poster {
+   width: 95%;
+   height: 410px;
+   margin-top: 1%;
+   margin-bottom: 1%;
  }
  #event_1 {
    height:175px;
@@ -98,7 +103,8 @@
    width:63%;
  }
  #event_1_display {
-   height:125;
+   margin-top: 2.5%;
+   height:135px;
    width:90%;
    margin-left: 5%;
    float:left;
@@ -107,6 +113,9 @@
    margin-top: 4%;
    height:175px;
    width:100%;
+ }
+ #event_1_title {
+   width:90%;
  }
  #event_2_image {
    float:left;
@@ -130,6 +139,9 @@
    width:90%;
    margin-left: 5%;
    float:left;
+ }
+ #event_2_title {
+   width: 50%;
  }
  #Media_Content {
    padding-top: 1%;
@@ -224,24 +236,28 @@
    float:left;
    margin-left: 29%;
    margin-top: 250px;
+   width: 6%;
  }
  #btn_events {
    float:left;
    bottom: 0;
-   margin-left: 6%;
+   margin-left: 7%;
    margin-top: 250px;
+   width: 6%;
  }
  #btn_services {
    float:left;
    bottom: 0;
-   margin-left: 6%;
+   margin-left: 7%;
    margin-top: 250px;
+   width: 6%;
  }
  #btn_contact {
    float:left;
    bottom: 0;
-   margin-left: 6%;
+   margin-left: 7%;
    margin-top: 250px;
+   width: 6%;
  }
  #services {
     width: 100%;
@@ -278,7 +294,6 @@ p {
 }
 #sponsors_container {
   float:left;
-  margin-left: 5%;
   width:100%;
 }
 .navbar-header{
@@ -306,6 +321,7 @@ p {
 .event_info {
   font-size: 20px;
   color:white;
+  width: 100%;
 }
 
 }
