@@ -14,31 +14,29 @@
  }
  #wrapper {
    width:100%;
+   height:1150px;
    background-repeat: no-repeat;
    background-size: cover;
-   background-image: url("../images/Background_And_Title.png");
+   background-image: url("../images/Background.png");
  }
-#topheader {
-	width:auto;
-	height: 48px;
-	background-color: #226AFF;
-	border-bottom: 3px solid #888;
-	margin-bottom: 10px;
-	text-align: center;
-	padding: 12px;
-	color: red;
-	font-size: 44px;
-	font-family: Verdana, Geneva, sans-serif;
-}
+
  #Main_Content {
    height: 700px;
    width:100%;
-   border-style: solid;
+ }
+ #title_container {
+   margin-top: 2%;
+   width:100%;
+   height: 75px;
+ }
+ #title {
+   width:80%;
+   margin-left: 6.7%;
  }
  #Media_Content_Right {
    padding-top: 0.75%;
    padding-left: 3%;
-   padding-right: 1%;
+   padding-right: 2.5%;
    padding-bottom: 1%;
    border-top-left-radius: 8px;
    border-bottom-left-radius: 8px;
@@ -216,8 +214,6 @@
    width:6%;
    height:400px;
    float: left;
-   border-bottom-right-radius: 8px;
-   border-top-right-radius: 8px;
    background-color:rgba(0,0,0,0.4);
  }
  #twitter_content_image {
@@ -236,29 +232,29 @@
 
  #btn_home {
    float:left;
-   margin-left: 29%;
-   margin-top: 250px;
+   margin-left: 30.5%;
+   margin-top: 165px;
    width: 6%;
  }
  #btn_events {
    float:left;
    bottom: 0;
    margin-left: 7%;
-   margin-top: 250px;
+   margin-top: 165px;
    width: 6%;
  }
  #btn_services {
    float:left;
    bottom: 0;
    margin-left: 7%;
-   margin-top: 250px;
+   margin-top: 165px;
    width: 6%;
  }
  #btn_contact {
    float:left;
    bottom: 0;
    margin-left: 7%;
-   margin-top: 250px;
+   margin-top: 165px;
    width: 6%;
  }
  #services {
