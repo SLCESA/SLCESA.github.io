@@ -9,7 +9,7 @@
     <meta name="author" content="Mitchell Ungar">
 
     <title>SLC ESA Home</title>
-
+ <script src="js/resizing_background.js"></script>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -20,7 +20,13 @@
     <link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
 <center>
-<body background="images/Background.png">
+<body onLoad="rbInit()" onResize="rbResize()">
+<script>
+// "true" means "keep the proportions of the original image."
+// If you pass "false" the image fills the whole window,
+// even if it must be distorted to do so. Experiment.
+rbOpen(false);
+</script>
 <div id="wrapper">
   <!--Header-->
   <div id="Header">
@@ -108,6 +114,9 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      rbClose("images/Background.png");
+    </script>
 
 </body>
 

@@ -5,4 +5,9 @@ username: SLC ESA
 e-mail:   SLCeSportAssociation@gmail.com
 password: SLCESA2016
 
+easyDNS
 password: eSports2016
+
+cPanel:
+User:ogc2016
+Password:30df35fd
